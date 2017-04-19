@@ -2,7 +2,27 @@
 @import "vars.scss";
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1310px) {
+	.head-menu ul {
+		li{
+			a{
+				padding: 34px 10px;
+			}
+		}
+	}
+	.filter .inputs-ch{
+		ul{
+			li{
+				margin-right: 35px;
+			}
+		}
+	}
+	.filter .inputs-col{
+		margin-left: 0px;
+	}
+	.profitable-offer ul li a{
+		margin: 0 10px;
+	}
 
 }
 

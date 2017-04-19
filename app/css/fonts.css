@@ -3,3 +3,45 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima Nova Light/Proxima Nova Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Light/Proxima Nova Light.woff") format("woff"), url("../fonts/Proxima Nova Light/Proxima Nova Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima Nova Regular/Proxima Nova Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Regular/Proxima Nova Regular.woff") format("woff"), url("../fonts/Proxima Nova Regular/Proxima Nova Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Proxima Nova-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima Nova Bold/Proxima Nova Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Bold/Proxima Nova Bold.woff") format("woff"), url("../fonts/Proxima Nova Bold/Proxima Nova Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Proxima Nova Semibold/Proxima Nova Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/Proxima Nova Semibold/Proxima Nova Semibold.woff") format("woff"), url("../fonts/Proxima Nova Semibold/Proxima Nova Semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MyriadProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"); }

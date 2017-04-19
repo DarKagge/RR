@@ -22,42 +22,130 @@ body input:required:valid,
 body textarea:required:valid {
   color: #666; }
 
-/*==========  Desktop First Method  ==========*/
+.plit-items {
+  padding-top: 35.5px;
+  text-align: center; }
+  .plit-items ul li {
+    display: inline-block;
+    max-width: 561px;
+    width: 100%;
+    height: 266px;
+    vertical-align: top;
+    margin: 10px; }
+    .plit-items ul li a {
+      display: block;
+      font-size: 36px;
+      text-shadow: -2px 1px 1px #000;
+      line-height: 36px;
+      color: #fff;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      padding-top: 15%; }
+      .plit-items ul li a:hover {
+        text-decoration: none;
+        color: #fff; }
+    .plit-items ul li .double-item a {
+      max-width: 266px;
+      height: 266px;
+      float: left;
+      width: 100%;
+      margin: 0 13px; }
+      .plit-items ul li .double-item a:first-child {
+        margin-left: 0; }
+      .plit-items ul li .double-item a:last-child {
+        margin-right: 0; }
+
+.profitable-offer {
+  text-align: center;
+  margin: 15px 0; }
+  .profitable-offer h2 {
+    font-size: 45px;
+    color: #303366; }
+  .profitable-offer span {
+    font-family: Proxima Nova Semibold; }
+  .profitable-offer ul {
+    min-height: 49px;
+    display: inline-block; }
+    .profitable-offer ul li {
+      float: left; }
+      .profitable-offer ul li:first-child a {
+        margin-left: 0; }
+      .profitable-offer ul li:last-child a {
+        margin-right: 0; }
+      .profitable-offer ul li a {
+        display: block;
+        margin: 10px 20px;
+        font-size: 18px;
+        line-height: 18px;
+        color: #3c3c3c;
+        text-transform: uppercase;
+        padding: 13px; }
+        .profitable-offer ul li a:hover {
+          border: 2px solid #6169ee;
+          text-decoration: none;
+          color: #6169ee; }
+
+.new-items {
+  margin-top: 25px; }
+  .new-items ul li {
+    float: left;
+    width: 33.33%;
+    border: 2px solid #d0d0d0;
+    height: 467px;
+    position: relative;
+    text-align: center; }
+    .new-items ul li .description {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1310px) {
+  .head-menu ul li a {
+    padding: 34px 10px; }
+  .filter .inputs-ch ul li {
+    margin-right: 35px; }
+  .filter .inputs-col {
+    margin-left: 0px; }
+  .profitable-offer ul li a {
+    margin: 0 10px; } }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .wrapper {
-    width: auto; } }
+    width: auto; }
+  .pad {
+    padding: 50px 5px !important; }
+  footer {
+    text-align: center; }
+    footer .wrapper {
+      width: auto; }
+    footer ul {
+      float: none;
+      display: inline-block;
+      text-align: center; }
+      footer ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+        float: none; }
+    footer .gs {
+      float: none;
+      display: block; } }
 
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .pad {
-    padding: 20px 5px !important; }
-  /*Disable Animation on Mobile Devices*/
-  .animated {
-    /*CSS transitions*/
-    -webkit-transition-property: none !important;
-    transition-property: none !important;
-    /*CSS transforms*/
-    -ms-transform: none !important;
-    -webkit-transform: none !important;
-    transform: none !important;
-    /*CSS animations*/
-    -webkit-animation: none !important;
-    animation: none !important; } }
+    padding: 20px 5px !important; } }
 
-/* Custom, iPhone Retina */
-/*==========  Mobile First Method  ==========*/
-/* Custom, iPhone Retina */
-/* Extra Small Devices, Phones */
-/* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-/* Large Devices, Wide Screens */
 /* ============================ form css =========================== */
-#modal_callback_ok h3 {
+#modal_callback_ok h3, #modal_callback_ok h4 {
   font: 30px RobotoRegular,Arial,sans-serif;
   text-align: center; }
+
+#modal_callback_ok h4 {
+  font-weight: 700; }
 
 .allert, .allert_tell {
   position: absolute;
